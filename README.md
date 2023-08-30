@@ -35,3 +35,4 @@ The Weather Dashboard is a web-based application that provides users with curren
 ## Weather application
 - [live site](https://basitmalik97.github.io/Weather-Application/)
 - [Github repo:: https://github.com/basitmalik97/Weather-Application/](https://github.com/basitmalik97/Weather-Application/)
+

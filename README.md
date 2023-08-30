@@ -1,7 +1,7 @@
 # Weather Dashboard
 
-![Weather Dashboard Screenshot](East Haven Weather.png)
-
+![Weather Dashboard Screenshot](East-Haven-Weather.png)
+![Weather Application Screenshot](Islamabad-Weather.png)
 ## Description
 
 The Weather Dashboard is a web-based application that provides users with current and future weather conditions for a specified city. Users can search for cities and receive detailed weather information, including temperature, humidity, wind speed, and more. Additionally, the application maintains a search history for easy access to previously searched cities.
@@ -33,5 +33,6 @@ The Weather Dashboard is a web-based application that provides users with curren
 
 
 ## Weather application
-- [live site]()
-- [Github repo](https://github.com/basitmalik97/Weather-Application)
+- [live site](https://basitmalik97.github.io/Weather-Application/)
+- [Github repo:: https://github.com/basitmalik97/Weather-Application/](https://github.com/basitmalik97/Weather-Application/)
+

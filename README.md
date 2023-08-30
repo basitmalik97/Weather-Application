@@ -23,8 +23,8 @@ The Weather Dashboard is a web-based application that provides users with curren
 
 ## Installation
 
-1. Clone the repository: `git clone `
-2. Navigate to the project folder: `cd weather-dashboard`
+1. Clone the repository: `git clone https://github.com/basitmalik97/Weather-Application.git`
+2. Navigate to the project folder: `cd Weather-Application`
 3. Open the `index.html` file in a web browser.
 
 ## Credits

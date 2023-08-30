@@ -68,14 +68,16 @@ $(document).ready(function () {
       var cardBody = $("<div>").addClass("card-body");
       var wind = $("<p>").addClass("card-text").text("Wind Speed: " + data.wind.speed + " MPH");
       var humid = $("<p>").addClass("card-text").text("Humidity: " + data.main.humidity + " %");
-      var temp = $("<p>").addClass("card-text").text("Temperature: " + data.main.temp + " K");
+      var tempInKelvin = data.main.temp;
+      var tempInFahrenheit = (tempInKelvin - 273.15) * 9/5 + 32;
+      var temp = $("<p>").addClass("card-text").text("Temperature: " + tempInFahrenheit.toFixed(3) + " °F");
       console.log(data)
       var lon = data.coord.lon;
       var lat = data.coord.lat;
 
       $.ajax({
         type: "GET",
-        url: "https://api.openweathermap.org/data/2.5/uvi?appid=f5a37c672388f6409ad028a92da83e9c&lat=" + lat + "&lon=" + lon,
+        url: "https://api.openweathermap.org/data/2.5/uvi?appid=f5a37c672388f6409ad028a92da83e9c&units=imperial&lat=" + lat + "&lon=" + lon,
 
 
       }).then(function (response) {

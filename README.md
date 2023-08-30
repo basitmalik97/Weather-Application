@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-![Weather Dashboard Screenshot](East%Haven%Weather.png)
+![Weather Dashboard Screenshot](East Haven Weather.png)
 
 ## Description
 

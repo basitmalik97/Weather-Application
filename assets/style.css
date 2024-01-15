@@ -1,0 +1,46 @@
+:root {
+    --light: #465AB8;
+    --dark: #281764;
+}
+
+#header-id {
+    margin:10px;
+    background-image: linear-gradient(to right, var(--light), var(--dark));
+}
+
+.singleHeader {
+    display: flex;
+    align-items: center;
+}
+
+.singleCityWrap{
+    border: 2px black solid;
+    padding: 5px;
+    width: 83%;
+}
+
+#search-btn {
+    background-color: var(--light);
+    width: 100%;
+}
+
+#header-id {
+    background-color: blue !important;
+}
+
+.border {
+    border: solid 3px black;
+    margin-bottom: 30px;
+}
+
+#singleCity {
+    border: 5px black;
+}
+
+.five-day .col .fiveDayCard {
+    background-color: #323D4F;
+    color: white;
+    padding: 5px;
+}
+
+/* Google CSS SPECIFICITY */

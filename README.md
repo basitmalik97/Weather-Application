@@ -1,38 +1,50 @@
 # Weather Dashboard
 
-![Weather Dashboard Screenshot](East-Haven.png)
-![Weather Application Screenshot](Islamabad.png)
+
+
 ## Description
+A light weather application that pulls weather data from 5 day weather forecast API and displays saved cities to the user.
 
-The Weather Dashboard is a web-based application that provides users with current and future weather conditions for a specified city. Users can search for cities and receive detailed weather information, including temperature, humidity, wind speed, and more. Additionally, the application maintains a search history for easy access to previously searched cities.
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* moment.js
 
-## Features
+## Challenges
+* Working with multiple appendages to box data
+* Understanding API Calls
 
-- Search for a city to retrieve current and future weather conditions.
-- Display city name, date, weather conditions icon, temperature, humidity, and wind speed for the current weather.
-- Provide a 5-day forecast with date, weather conditions icon, temperature, wind speed, and humidity.
-- Maintain a search history for quick access to previous city searches.
-- Intuitive user interface for smooth navigation.
+## Future Implementations
+* Backgrounds showing city landmarks (if available)
+* Optional 10 day forecast
 
-## Usage
+## User Story
 
-1. Enter the name of a city in the search input field.
-2. Click the "Search" button to retrieve weather information for the specified city.
-3. View the current weather conditions and the 5-day forecast for the selected city.
-4. Previously searched cities are displayed in the search history section. Click on a city in the history to see its weather information again.
+```md
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
+```
+
+## Acceptance Criteria
+
+```md
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
+```
+
+## Mock-up
+
+![Demo of weather dashboard](./assets/dashboard-demo.png)
 
 ## Installation
-
-1. Clone the repository: `git clone https://github.com/basitmalik97/Weather-Application.git`
-2. Navigate to the project folder: `cd Weather-Application`
-3. Open the `index.html` file in a web browser.
-
-## Credits
-
-- Weather data provided by [OpenWeatherMap](https://openweathermap.org/)
-
-
-## Weather application
-- [live site](https://basitmalik97.github.io/Weather-Application/)
-- [Github repo:: https://github.com/basitmalik97/Weather-Application/](https://github.com/basitmalik97/Weather-Application/)
-
+1. Download/clone repository to local machine
+2. Open index.html in default browser

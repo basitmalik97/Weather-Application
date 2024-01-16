@@ -1,4 +1,3 @@
-My apologies for the confusion. Here's a simplified and concise version for showcasing on your GitHub:
 
 # Weather Dashboard
 

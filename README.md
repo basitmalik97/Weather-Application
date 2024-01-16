@@ -1,50 +1,50 @@
+My apologies for the confusion. Here's a simplified and concise version for showcasing on your GitHub:
+
 # Weather Dashboard
 
-
-
 ## Description
-A light weather application that pulls weather data from 5 day weather forecast API and displays saved cities to the user.
+
+A weather dashboard web application that provides real-time and 5-day forecast weather data for multiple cities. Users can search for cities, view current weather conditions, and store their search history.
+
+## Features
+
+- **Search Functionality:** Users can search for cities to view current and future weather conditions.
+- **Weather Details:** Displays city name, date, weather icon, temperature, humidity, and wind speed.
+- **5-Day Forecast:** Provides a 5-day forecast with date, weather icon, temperature, wind speed, and humidity.
+- **Search History:** Stores a history of searched cities using `localStorage`.
+
+## Screenshots
+
+![Screenshot](./Assets/06-server-side-apis-homework-demo.png)
+
+## Deployment
+
+- [Live Demo](#) (insert your live URL here)
+- [GitHub Repository](#) (insert your GitHub repository URL here)
 
 ## Technologies Used
-* HTML
-* CSS
-* JavaScript
-* moment.js
 
-## Challenges
-* Working with multiple appendages to box data
-* Understanding API Calls
-
-## Future Implementations
-* Backgrounds showing city landmarks (if available)
-* Optional 10 day forecast
-
-## User Story
-
-```md
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
-
-## Mock-up
-
-![Demo of weather dashboard](./assets/dashboard-demo.png)
+- HTML
+- CSS
+- JavaScript
+- OpenWeather API
 
 ## Installation
-1. Download/clone repository to local machine
-2. Open index.html in default browser
+
+1. Clone the repository.
+2. Open the `index.html` file in your browser.
+
+## Usage
+
+1. Enter a city name in the search bar.
+2. View current and future weather conditions.
+3. Check the 5-day forecast.
+4. Review search history.
+
+## Credits
+
+- OpenWeather API
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

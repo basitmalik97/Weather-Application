@@ -19,7 +19,7 @@ A weather dashboard web application that provides real-time and 5-day forecast w
 ## Deployment
 
 - [Live Demo](#) (https://weatherwebbapp.netlify.app/)
-- [GitHub Repository](#) (insert your GitHub repository URL here)
+- [GitHub Repository](#) (https://github.com/basitmalik97/Weather-Application/tree/main)
 
 ## Technologies Used
 

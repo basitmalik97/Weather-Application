@@ -14,11 +14,11 @@ A weather dashboard web application that provides real-time and 5-day forecast w
 
 ## Screenshots
 
-![Screenshot](./Assets/06-server-side-apis-homework-demo.png)
+![Screenshot](./Assets/Homepage.png)
 
 ## Deployment
 
-- [Live Demo](#) (insert your live URL here)
+- [Live Demo](#) (https://weatherwebbapp.netlify.app/)
 - [GitHub Repository](#) (insert your GitHub repository URL here)
 
 ## Technologies Used

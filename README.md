@@ -14,7 +14,7 @@ A weather dashboard web application that provides real-time and 5-day forecast w
 
 ## Screenshots
 
-![Screenshot](./Assets/Homepage.png)
+![Screenshot](Homepage.png)
 
 ## Deployment
 
